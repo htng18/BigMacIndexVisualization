@@ -8,10 +8,10 @@ This procedure of this deployment is outlined below:
 1. Download the source data from a URL using AWS Lambda function.
 2. AWS Lambda function saved the data into AWS S3.
 3. AWS Glue obtained the data from S3 and calculated the following quantities:
-&nbsp; * BigMac Index.
-&nbsp; * Actual exchange rate (USD).
-&nbsp; * Evaluation between BigMac Index and the actual exchange rate.
+   - BigMac Index.
+   - Actual exchange rate (USD).
+   - Evaluation between BigMac Index and the actual exchange rate.
 4. The processed data is then stored in S3.
-4. Deploy the app using streamlit, where the app can get the data from S3. 
+5. Deploy the app using streamlit, where the app can get the data from S3. 
 
 
